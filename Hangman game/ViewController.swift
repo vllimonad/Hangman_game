@@ -91,6 +91,7 @@ class ViewController: UIViewController {
             } else {
                 showMessageAlert("Try again!", "You don't have more attempts for this word")
             }
+            navigationItem.rightBarButtonItem?.isHidden = true
         }
     }
     
